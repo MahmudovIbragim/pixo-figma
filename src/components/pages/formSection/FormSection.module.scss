@@ -1,0 +1,543 @@
+.FormSection {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: url("../../../assets/Vector4.svg") no-repeat center;
+  background-position: 156% 114%;
+  background-color: #000000;
+
+  .imgleft_sms {
+    position: absolute;
+    top: 101px;
+    left: 1450px;
+    z-index: -1;
+  }
+  .imgrigth_sms {
+    position: absolute;
+    top: 300px;
+    left: -280px;
+  }
+  .bg_firs {
+    position: absolute;
+    top: 0px;
+    left: -75px;
+    z-index: -1;
+  }
+  .bg_second {
+    position: absolute;
+    top: -30px;
+    left: -500px;
+    z-index: -1;
+  }
+  .Content {
+    padding: 166px 0px 150px 0px;
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      h1 {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+        max-width: 530px;
+        margin-bottom: 93px;
+      }
+    }
+    .form_container {
+      display: flex;
+      flex-direction: column;
+      max-width: 800px;
+      width: 100%;
+      padding-left: 120px;
+      margin-inline: auto;
+      color: white;
+
+      .box_btn {
+        p {
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+        button {
+          color: rgb(168, 168, 168);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0%;
+          padding: 12px 15px 12px 15px;
+          margin-right: 7px;
+          margin-bottom: 43px;
+          text-align: left;
+          box-sizing: border-box;
+          border: 1px solid rgb(64, 64, 64);
+          background-color: transparent;
+          cursor: pointer;
+
+          &:active {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 150%;
+            letter-spacing: 0%;
+            padding: 12px 15px 12px 15px;
+            margin-right: 7px;
+            text-align: left;
+            background: rgb(255, 255, 255);
+            border: 1px solid rgb(64, 64, 64);
+          }
+          &:hover {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 150%;
+            letter-spacing: 0%;
+            padding: 12px 15px 12px 15px;
+            margin-right: 7px;
+            text-align: left;
+            background: rgb(255, 255, 255);
+            border: 1px solid rgb(64, 64, 64);
+          }
+        }
+        .bloget_btn {
+          color: rgb(0, 0, 0);
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 150%;
+          letter-spacing: 0%;
+          padding: 12px 15px 12px 15px;
+          margin-right: 7px;
+          text-align: left;
+          background: rgb(255, 255, 255);
+          border: 1px solid rgb(64, 64, 64);
+        }
+      }
+      .forms {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        input {
+          color: rgb(168, 168, 168);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0;
+          text-align: left;
+          background-color: transparent;
+          max-width: 550px;
+          outline: none;
+          padding: 12px 12px 15px;
+          box-sizing: border-box;
+          border: 1px solid rgb(64, 64, 64);
+          margin-bottom: 30px;
+        }
+        label {
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+        .textarea {
+          background-color: transparent;
+          max-width: 550px;
+          width: 100%;
+          padding-top: 12px;
+          padding-left: 15px;
+          color: rgb(168, 168, 168);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+          box-sizing: border-box;
+          border: 1px solid rgb(64, 64, 64);
+        }
+      }
+      .add_btn {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        button {
+          border-radius: 30px;
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 0%;
+          padding: 15px 25px 15px 25px;
+          text-align: left;
+          background: rgb(255, 255, 255);
+          cursor: pointer;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0%;
+          max-width: 250px;
+          text-align: left;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
+////////////////////////////////////////////////////////////////
+@media (max-width: 1300px) {
+  .FormSection {
+    background: none;
+    background-color: #000000;
+    .imgleft_sms {
+      position: absolute;
+      top: 101px;
+      left: 1050px;
+      z-index: 1;
+      max-width: 370px;
+    }
+    .imgrigth_sms {
+      position: absolute;
+      top: 300px;
+      left: -200px;
+      max-width: 580px;
+    }
+    .bg_firs {
+      display: none;
+    }
+    .bg_second {
+      display: none;
+    }
+    .Content {
+      .title {
+        h1 {
+          font-size: 42px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      .form_container {
+        .box_btn {
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+          }
+          button {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+          }
+          .bloget_btn {
+            font-size: 16px;
+          }
+        }
+        .forms {
+          input {
+            font-size: 16px;
+          }
+          label {
+            font-size: 14px;
+          }
+          .textarea {
+            font-size: 15px;
+          }
+        }
+        .add_btn {
+          button {
+            font-size: 15px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+///////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .FormSection {
+    background: none;
+    background-color: #000000;
+    .imgleft_sms {
+      position: absolute;
+      top: 101px;
+      left: 1050px;
+      z-index: 1;
+      max-width: 350px;
+    }
+    .imgrigth_sms {
+      position: absolute;
+      top: 380px;
+      left: -200px;
+      max-width: 500px;
+    }
+    .bg_firs {
+      display: none;
+    }
+    .bg_second {
+      display: none;
+    }
+    .Content {
+      padding: 120px 0px 110px 0px;
+      .title {
+        h1 {
+          font-size: 38px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .form_container {
+        .box_btn {
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+          }
+          button {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+          }
+          .bloget_btn {
+            font-size: 16px;
+          }
+        }
+        .forms {
+          input {
+            font-size: 16px;
+          }
+          label {
+            font-size: 14px;
+          }
+          .textarea {
+            font-size: 15px;
+          }
+        }
+        .add_btn {
+          button {
+            font-size: 15px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////////
+@media (max-width: 1000px) {
+  .FormSection {
+    .imgleft_sms {
+      display: none;
+    }
+    .imgrigth_sms {
+      display: none;
+    }
+    .bg_firs {
+      display: none;
+    }
+    .bg_second {
+      display: none;
+    }
+    .Content {
+      padding: 90px 0px 70px 0px;
+
+      .title {
+        h1 {
+          font-size: 38px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .form_container {
+        .box_btn {
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+          }
+          button {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+          }
+          .bloget_btn {
+            font-size: 16px;
+          }
+        }
+        .forms {
+          input {
+            font-size: 16px;
+          }
+          label {
+            font-size: 14px;
+          }
+          .textarea {
+            font-size: 15px;
+          }
+        }
+        .add_btn {
+          button {
+            font-size: 15px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////////////
+@media (max-width: 767px) {
+  .FormSection {
+    .imgleft_sms {
+      display: none;
+    }
+    .imgrigth_sms {
+      display: none;
+    }
+    .bg_firs {
+      display: none;
+    }
+    .bg_second {
+      display: none;
+    }
+    .Content {
+      padding: 90px 0px 70px 0px;
+
+      .title {
+        h1 {
+          font-size: 34px;
+        }
+        p {
+          font-size: 11px;
+        }
+      }
+      .form_container {
+        .box_btn {
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+          }
+          button {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+          }
+          .bloget_btn {
+            font-size: 16px;
+          }
+        }
+        .forms {
+          input {
+            font-size: 14px;
+          }
+          label {
+            font-size: 14px;
+          }
+          .textarea {
+            font-size: 14px;
+          }
+        }
+        .add_btn {
+          button {
+            font-size: 14px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+////////////////////////////////////////////////////////////////
+@media (max-width: 390px) {
+  .FormSection {
+    .imgleft_sms {
+      display: none;
+    }
+    .imgrigth_sms {
+      display: none;
+    }
+    .bg_firs {
+      display: none;
+    }
+    .bg_second {
+      display: none;
+    }
+    .Content {
+      padding: 90px 0px 70px 0px;
+
+      .title {
+        h1 {
+          font-size: 34px;
+        }
+        p {
+          font-size: 11px;
+        }
+      }
+      .form_container {
+        padding-left: 0px;
+        .box_btn {
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+          }
+          button {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+          }
+          .bloget_btn {
+            font-size: 16px;
+          }
+        }
+        .forms {
+          input {
+            font-size: 14px;
+          }
+          label {
+            font-size: 14px;
+          }
+          .textarea {
+            font-size: 14px;
+          }
+        }
+        .add_btn {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+          gap: 30px;
+          button {
+            align-self: flex-end;
+            font-size: 14px;
+          }
+          p {
+            margin: 0;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
